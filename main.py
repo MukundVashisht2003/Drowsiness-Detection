@@ -23,6 +23,9 @@ def blinked(a, b, c, d, e, f):
     else:
         return 0  # Sleeping
 
+# Initialize video capture source
+cap = cv2.VideoCapture(0)  # Use 0 for the default camera or provide a video file path
+
 # Initialize counters and variables
 sleep = 0
 drowsy = 0
